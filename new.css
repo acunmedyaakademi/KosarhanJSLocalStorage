@@ -1,0 +1,19 @@
+body {
+    background-image: arkaplan;
+    width: 1400px;
+    height: 933px;
+}
+p {
+   font-family: serif ;
+   font-size: 20px;   
+ }
+ input {
+    background-color: beige;
+    width:auto;
+    border-color:#cfcfcf;
+}
+button {
+    background-color: whitesmoke;
+    width:7.6%;
+    border-color: white;
+}
