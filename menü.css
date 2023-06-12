@@ -1,0 +1,35 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: grey;
+    overflow:auto;
+}
+
+ul li {
+    float:left;
+    border-bottom:3px solid grey;
+    border-left: 100px;
+}
+
+ul li.menu-right{
+    float:right;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 18px;
+}
+
+ul li.active {
+    background-color: grey;
+    border-bottom:3px solid whitesmoke;
+}
+
+ul li:hover:not(.active) {
+    background-color: wheat;
+    border-bottom:3px solid whitesmoke;
+}
